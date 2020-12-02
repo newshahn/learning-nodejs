@@ -1,0 +1,23 @@
+{
+  "name": "basic",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "nodemon": "^2.0.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/newshahn/learning-nodejs.git"
+  },
+  "author": "Newsha Hosseiny Nik",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/newshahn/learning-nodejs/issues"
+  },
+  "homepage": "https://github.com/newshahn/learning-nodejs#readme"
+}
