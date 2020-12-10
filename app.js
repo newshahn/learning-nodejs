@@ -1,6 +1,8 @@
-// console.log("PROCESS: ", process);
+const express = require("express");
+const app = express();
 
-const helpers = require("./helpers");
+app.get("/", (req, res) => {
+  res.send("hey what's up from express?");
+});
 
-const total = helpers.sum(10, 20);
-console.log(total);
+app.listen(3000);
